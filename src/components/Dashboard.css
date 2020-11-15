@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+
+.dashboard {
+  margin-top: 10vh;
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+  /* background-color: rgb(245, 245, 245); */
+}
+
+.calltoaction {
+  width: 50%;
+  font-family: "Space Mono", monospace;
+  color: #403d52;
+}
+
+.calltoaction p,
+.calltoaction button {
+  font-family: "Montserrat", sans-serif;
+}
+
+.calltoaction button {
+  width: fit-content;
+}
+
+.illustration {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.illustration img {
+  width: 100%;
+  height: fit-content;
+}
+
+.illustration img {
+  width: 85%;
+  height: 90%;
+}
