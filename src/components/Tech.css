@@ -1,0 +1,10 @@
+.tech_badge {
+  width: fit-content;
+  height: fit-content;
+  background-color: #6c63ff;
+  color: #ffffff;
+  border-radius: 1rem;
+  font-size: 12px;
+  padding: 0.2rem 1rem;
+  margin: 2px;
+}

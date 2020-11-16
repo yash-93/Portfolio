@@ -1,0 +1,63 @@
+.pallete {
+  display: flex;
+  width: 75%;
+  height: auto;
+  box-shadow: 0 4px 10px 5px rgba(0, 0, 0, 0.12);
+  margin: 7rem auto;
+  border-radius: 12px;
+  padding: 1%;
+}
+
+.project_pic {
+  width: 50%;
+  height: 50%;
+  margin: 1rem;
+  border-radius: 12px;
+}
+
+.project_pic img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.project_desc {
+  width: 50%;
+  /* height: fit-content; */
+  margin: 1rem;
+  border-radius: 12px;
+}
+
+.tech_stack {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.code_demo_btns {
+  display: flex;
+}
+
+.demo {
+  background-color: #6c63ff !important;
+  border-color: #6c63ff !important;
+  margin: 2px;
+  transition: 0.3s;
+}
+
+.demo:hover {
+  background-color: #fff !important;
+  color: black !important;
+}
+
+.code {
+  background-color: #fff !important;
+  border-color: #6c63ff !important;
+  color: black !important;
+  margin: 2px;
+  transition: 0.2s;
+}
+
+.code:hover {
+  background-color: #6c63ff !important;
+  color: #ffffff !important;
+}

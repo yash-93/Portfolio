@@ -1,12 +1,16 @@
 import React from "react";
+import ProjectDesc from "./ProjectDesc";
 
 import "./Projects.css";
 
 const Projects = () => {
   return (
-    <section className="projects">
-      <h1>PROJECTS</h1>
-    </section>
+    <div className="projects">
+      <ProjectDesc />
+      <ProjectDesc />
+      <ProjectDesc />
+      <ProjectDesc />
+    </div>
   );
 };
 

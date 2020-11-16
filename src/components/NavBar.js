@@ -10,11 +10,11 @@ const NavBar = () => {
       <Navbar.Brand>
         <Link to="/">
           Yashdeep Bachhas{" "}
-          <img
+          {/* <img
             src="https://avatars2.githubusercontent.com/u/23582791?s=400&u=eddb806106f8238ca2695ada9d9a500d12ef8729&v=4"
             height="50"
             width="50"
-          />
+          /> */}
         </Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
