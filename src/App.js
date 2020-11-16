@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Dashboard from "./components/Dashboard";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
-import SlantTest from "./components/SlantTest";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,13 +14,14 @@ function App() {
         <Switch>
           <Route path="/projects">
             <Projects />
+            <Footer />
           </Route>
           <Route path="/contact">
             <Projects />
           </Route>
           <Route path="/">
             <Dashboard />
-            <SlantTest />
+            <Footer />
           </Route>
         </Switch>
       </Router>
