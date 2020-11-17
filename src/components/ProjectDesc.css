@@ -1,36 +1,40 @@
 .pallete {
   display: flex;
-  width: 75%;
-  height: auto;
+  width: 80%;
   box-shadow: 0 4px 10px 5px rgba(0, 0, 0, 0.12);
   margin: 7rem auto;
   border-radius: 12px;
   padding: 1%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .project_pic {
   width: 50%;
-  height: 50%;
   margin: 1rem;
   border-radius: 12px;
 }
 
 .project_pic img {
   width: 100%;
-  height: auto;
   border-radius: 12px;
 }
 
 .project_desc {
   width: 50%;
-  /* height: fit-content; */
   margin: 1rem;
   border-radius: 12px;
 }
 
+#project_title {
+  font-family: "Space Mono", monospace;
+}
+
+#project_content {
+  font-size: 15px;
+}
+
 .tech_stack {
   display: flex;
-  /* justify-content: space-between; */
 }
 
 .code_demo_btns {
