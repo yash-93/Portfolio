@@ -1,4 +1,4 @@
-.slant {
+.footer {
   position: relative;
   width: 100vw;
   height: fit-content;
@@ -7,7 +7,7 @@
   padding: 2%;
 }
 
-/* .slant::after {
+/* .footer::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -22,7 +22,7 @@
   transform: skewY(4deg);
 } */
 
-.slant h2 {
+.footer h2 {
   text-align: center;
 }
 

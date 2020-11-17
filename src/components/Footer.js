@@ -4,7 +4,7 @@ import "./Footer.css";
 
 const SlantTest = () => {
   return (
-    <div className="slant">
+    <div className="footer">
       <div className="socialprofiles">
         <a href="https://github.com/yash-93" target="_blank" rel="noreferrer">
           <i class="fab fa-github fa-4x"></i>
