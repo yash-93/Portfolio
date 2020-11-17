@@ -1,0 +1,49 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 1%;
+}
+
+.contact h1 {
+  text-align: center;
+  font-family: "Space Mono", sans-serif;
+}
+
+.contact label {
+  font-family: "Space Mono", sans-serif;
+}
+
+#name,
+#email,
+#message {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+textarea,
+input {
+  padding: 2%;
+}
+
+.contact button {
+  width: 100%;
+  background-color: #6c63ff;
+  border: none;
+  color: #ffffff;
+  font-family: "Space Mono", sans-serif;
+  height: 5.5vh;
+  transition: 0.3s;
+}
+
+.contact button:hover {
+  background-color: #9f9aff;
+}

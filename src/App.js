@@ -5,6 +5,7 @@ import Dashboard from "./components/Dashboard";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
             <Footer />
           </Route>
           <Route path="/contact">
-            <Projects />
+            <Contact />
+            <Footer />
           </Route>
           <Route path="/">
             <Dashboard />
