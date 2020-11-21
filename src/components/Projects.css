@@ -2,3 +2,16 @@
   width: 100vw;
   margin-top: 10vh;
 }
+
+#addNewProject {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+/* #addNewProject i {
+} */
+
+#addNewProject i:hover {
+  cursor: pointer;
+}
