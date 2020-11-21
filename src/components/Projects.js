@@ -10,6 +10,9 @@ const Projects = () => {
       <ProjectDesc />
       <ProjectDesc />
       <ProjectDesc />
+      <div id="addNewProject">
+        <i class="fas fa-plus fa-5x"></i>
+      </div>
     </div>
   );
 };
