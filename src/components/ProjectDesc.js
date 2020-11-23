@@ -5,7 +5,7 @@ import proj_pic from "./static/proj_pic.png";
 import Tech from "./Tech";
 import "./ProjectDesc.css";
 
-const ProjectDesc = () => {
+const ProjectDesc = (props) => {
   return (
     <div className="pallete">
       <div className="project_pic">
