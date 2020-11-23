@@ -4,8 +4,7 @@
   margin-top: 10vh;
   display: flex;
   width: 100vw;
-  height: 90vh;
-  /* background-color: rgb(245, 245, 245); */
+  height: 100vh;
 }
 
 .calltoaction {
@@ -39,4 +38,43 @@
 .illustration img {
   width: 85%;
   height: 90%;
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    flex-direction: column;
+    margin-top: 0vh;
+  }
+
+  .calltoaction {
+    width: 100%;
+  }
+  .calltoaction h1 {
+    font-size: 1.7rem;
+  }
+
+  .calltoaction p {
+    font-size: 0.85rem;
+  }
+
+  .illustration {
+    position: relative;
+    width: 100%;
+    height: 80%;
+  }
+
+  .illustration img {
+    width: 70%;
+    padding-top: 5% !important;
+    margin: 0 14%;
+  }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 1200px) {
 }
