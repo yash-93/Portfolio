@@ -12,7 +12,7 @@ const Projects = () => {
       .get("https://yashdeep-backend.herokuapp.com/api/getProjects")
       .then((data) => {
         setProjects(data.data.projects);
-        console.log(projects);
+        console.log(data.data.projects);
       })
       .catch((err) => {
         console.log(err);
