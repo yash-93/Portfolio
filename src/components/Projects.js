@@ -2,10 +2,12 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 import ProjectDesc from "./ProjectDesc";
+import Spinner from "./utils/Spinner";
 
 import "./Projects.css";
 
 const Projects = () => {
+  const [showSpinner, setShowSpinner] = useState(true);
   const [projects, setProjects] = useState([]);
   useEffect(() => {
     axios
@@ -13,6 +15,7 @@ const Projects = () => {
       .then((data) => {
         setProjects(data.data.projects);
         console.log(data.data.projects);
+        setShowSpinner(false);
       })
       .catch((err) => {
         console.log(err);
@@ -20,12 +23,14 @@ const Projects = () => {
   }, []);
   return (
     <div className="projects">
-      {projects.map((project, index) => (
-        <ProjectDesc key={index} projectdetails={project} />
-      ))}
-      <div id="addNewProject">
+      {showSpinner && <Spinner />}
+      {!showSpinner &&
+        projects.map((project, index) => (
+          <ProjectDesc key={index} projectdetails={project} />
+        ))}
+      {/* <div id="addNewProject">
         <i class="fas fa-plus fa-5x"></i>
-      </div>
+      </div> */}
     </div>
   );
 };
