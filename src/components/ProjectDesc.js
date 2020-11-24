@@ -13,7 +13,12 @@ const ProjectDesc = (props) => {
       </div>
       <div className="project_desc">
         <h2 id="project_title">{props.projectdetails.title}</h2>
-        <p id="project_content">{props.projectdetails.description}</p>
+        {/* <p id="project_content">{props.projectdetails.description}</p> */}
+        <ul>
+          {props.projectdetails.description.map((desc, index) => (
+            <li key={index}>{desc}</li>
+          ))}
+        </ul>
         <div className="tech_stack">
           {props.projectdetails.techstack.map((tech, index) => (
             <Tech key={index} tech={tech} />

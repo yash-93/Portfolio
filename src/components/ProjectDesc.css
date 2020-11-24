@@ -23,6 +23,7 @@
   width: 50%;
   margin: 1rem;
   border-radius: 12px;
+  margin: auto 0;
 }
 
 #project_title {
@@ -35,6 +36,7 @@
 
 .tech_stack {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .code_demo_btns {
