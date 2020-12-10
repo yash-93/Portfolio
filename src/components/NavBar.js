@@ -27,7 +27,7 @@ const NavBar = () => {
           <Nav.Link
             onClick={() => {
               window.open(
-                "https://drive.google.com/file/d/1owVq6015qbvJdEz3BLIfQ_x2_sqmpTrF/view?usp=sharing",
+                "https://drive.google.com/file/d/1Fjvc0WoxA1bCSSjF6mzF_U-yQHDjNGt-/view?usp=sharing",
                 "_blank"
               );
             }}
